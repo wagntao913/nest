@@ -66,14 +66,16 @@
       ``` npm add mongoose @types/mongoose ```   
       添加模块的 crud，crud这个接口可以实现增删查改
       ``` npm add nestjs-mongoose-crud ```
-      生成lib/db目录结构
+      生成lib/db目录结构  
+      
         ```
-        ├─ src                                   
-        │   │── db.module.ts             
-        │   │── db.service.ts                
-        │   │── db.service.spec.ts                
-        │   └── index.ts                 
-        ```
+          ├─ src                                   
+          │   │── db.module.ts             
+          │   │── db.service.ts                
+          │   │── db.service.spec.ts                
+          │   └── index.ts                 
+        ```  
+       
     2. 连接和配置数据库
       在libs/db/src/db.module.ts中，设置数据库连接与部分配置
         ```
