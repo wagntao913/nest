@@ -58,13 +58,18 @@
       
   - **连接MongDB** 
     1. 创建库lib并安装依赖 
-      创建一个库lib ``` nest g lib db ```,设置名称为@libs
-      <img src="https://person-study.oss-cn-beijing.aliyuncs.com/createlib.png">
-      安装针对ts的数据库typegoose
+      创建一个库lib ``` nest g lib db ```,设置名称为@libs  
+      
+      ![image](https://person-study.oss-cn-beijing.aliyuncs.com/createlib.png)  
+      
+      安装针对ts的数据库typegoose  
+      
       ``` npm add nestjs-typegoose @typegoose/typegoose ```   
-      所以安装 mongoose
+      所以安装 mongoose  
+      
       ``` npm add mongoose @types/mongoose ```   
-      添加模块的 crud，crud这个接口可以实现增删查改
+      添加模块的 crud，crud这个接口可以实现增删查改  
+      
       ``` npm add nestjs-mongoose-crud ```
       生成lib/db目录结构  
       
@@ -161,5 +166,4 @@
         }
       ```
       保存，再次打开http://localhost:3000/api-docs/ ,如下图  
-
-      <img src="https://person-study.oss-cn-beijing.aliyuncs.com/swagger-crud.png">
+      ![image](https://person-study.oss-cn-beijing.aliyuncs.com/swagger-crud.png)
