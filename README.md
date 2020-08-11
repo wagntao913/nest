@@ -4,12 +4,15 @@
   - **环境要求**    下载安装 Node.js、npm包管理器 
   - **Nest安装**    ``` npm install -g @nestjs/cli ```
   - **检查安装**    ``` nest -v ```
-  - **创建项目**    ``` nest new <project-name> ```
-    <img src="https://person-study.oss-cn-beijing.aliyuncs.com/create-nest-work.png">
-  - **启动项目**    ``` npm run start ```
-  > 使用 ``` nest start -w ``` 启动项目后，当文件被保存自动更新项目
+  - **创建项目**    ``` nest new <project-name> ```  
 
-    <img src="https://person-study.oss-cn-beijing.aliyuncs.com/nest-start-successfully.png">
+  <img src="https://person-study.oss-cn-beijing.aliyuncs.com/create-nest-work.png">
+
+  - **启动项目**    ``` npm run start ```
+  > 使用 ``` nest start -w ``` 启动项目后，当文件被保存自动更新项目  
+
+  <img src="https://person-study.oss-cn-beijing.aliyuncs.com/nest-start-successfully.png">
+  
   - **项目目录**
   ```
     ├─ src                                   
