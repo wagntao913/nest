@@ -47,7 +47,7 @@
           console.log('start successfully, run http://localhost:3000/api-docs/')
         }
         ```
-      3.启动项目，打开 http://localhost:3000/api-docs/, swaggerUI 集成成功,具体设置后文会深入讲解
+      3. 启动项目，打开 http://localhost:3000/api-docs/, swaggerUI 集成成功,具体设置后文会深入讲解
       <img src="https://person-study.oss-cn-beijing.aliyuncs.com/SwaggerUI.png">
       
       
