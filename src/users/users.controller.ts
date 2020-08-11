@@ -8,7 +8,7 @@ import { Crud } from 'nestjs-mongoose-crud'
   model: User
 })
 @ApiTags('用户')
-@Controller('users')
+@Controller('/nest-project/users')
 export class UsersController {
   constructor(@InjectModel(User) private readonly model){ }
 }
