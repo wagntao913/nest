@@ -158,5 +158,6 @@
           constructor(@InjectModel(User) private readonly model){ }
         }
       ```
-      保存，再次打开http://localhost:3000/api-docs/ ,如下图
-     <img src="https://person-study.oss-cn-beijing.aliyuncs.com/swagger-crud.png">
+      保存，再次打开http://localhost:3000/api-docs/ ,如下图  
+
+      <img src="https://person-study.oss-cn-beijing.aliyuncs.com/swagger-crud.png">
