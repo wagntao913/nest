@@ -12,8 +12,8 @@ async function bootstrap() {
   .build();
   const document = SwaggerModule.createDocument(app, options);
   SwaggerModule.setup('api-docs', app, document);
-  app.setGlobalPrefix('nest-project'); // 全局路由前缀
-  await app.listen(3000);
-  console.log('start successfully, run http://localhost:3000/nest-project/api-docs/')
+  // app.setGlobalPrefix('nest-project'); // 全局路由前缀
+  await app.listen(3002, '0.0.0.0');
+  console.log('start successfully, run http://localhost:3002/api-docs/')
 }
 bootstrap();
