@@ -16,4 +16,8 @@ export class User{
     @ApiProperty({description: '密码', example: 'pwd'})
     @prop()
     password:string
+
+    @ApiProperty({description: '头像', example: 'https://person-space.oss-cn-beijing.aliyuncs.com/blindfold.png'})
+    @prop()
+    avatar:string
 }
